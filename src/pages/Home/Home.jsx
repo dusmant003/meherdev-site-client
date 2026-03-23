@@ -4,6 +4,7 @@ import SkillsScroll from '../../components/LayOut/SkillScroll'
 import Services from '../../components/LayOut/sERVICES.JSX'
 import About from '../../components/LayOut/About'
 import Tools from '../../components/LayOut/Tools'
+import MyProjects from '../../components/LayOut/MyProjects'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Services />
             <About />
             <Tools/>
+            <MyProjects/>
         </>
     )
 }

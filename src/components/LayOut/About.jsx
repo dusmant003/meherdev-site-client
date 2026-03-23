@@ -1,5 +1,5 @@
 import { Mail, Phone } from "lucide-react";
-import owner from '../../assets/ownerrr.png'
+import owner from '../../assets/owner.png'
 
 const About = () => {
     return (
@@ -16,10 +16,8 @@ const About = () => {
                     {/* Glow */}
                     <div className="relative flex justify-center items-center">
 
-                        {/* 🔥 Outer Glow */}
-
                         {/* 🔥 Gradient Border Circle */}
-                        <div className="relative w-[300px] h-[300px] rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 p-[4px] shadow-[0_0_40px_rgba(139,92,246,0.5)]">
+                        <div className="relative w-[300px] h-[300px] rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 p-[4px]">
 
                             {/* 🔥 Inner Glass Circle */}
                             <div className="w-full h-full rounded-full overflow-hidden bg-gray-800/60 backdrop-blur-md">
