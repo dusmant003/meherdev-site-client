@@ -4,10 +4,24 @@ import LayOut from './components/LayOut/LayOut'
 import { Route, Routes } from 'react-router-dom'
 import Cursor from './components/crusor/Crusor'
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
+
+
+
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <div className="bg-[#0b0f19] text-white min-h-screen">
-      <Cursor/>
+      <Cursor />
       <Routes>
         {/* Public Layout Routes */}
         <Route path="/" element={<LayOut />}>
