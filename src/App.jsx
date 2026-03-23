@@ -2,10 +2,12 @@ import React from 'react'
 import Home from './pages/Home/Home'
 import LayOut from './components/LayOut/LayOut'
 import { Route, Routes } from 'react-router-dom'
+import Cursor from './components/crusor/Crusor'
 
 const App = () => {
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
+    <div className="bg-[#0b0f19] text-white min-h-screen">
+      <Cursor/>
       <Routes>
         {/* Public Layout Routes */}
         <Route path="/" element={<LayOut />}>
