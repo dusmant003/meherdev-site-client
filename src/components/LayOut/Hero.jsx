@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center 
-    bg-[#0a192f] text-white px-6 md:px-20 overflow-hidden">
+    bg-[#0b0f19] text-white px-6 md:px-20 overflow-hidden">
 
       {/* Glow */}
       <div className="absolute w-72 h-72 bg-purple-500/20 rounded-full blur-3xl top-10 left-10"></div>

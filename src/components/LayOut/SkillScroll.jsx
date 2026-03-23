@@ -1,6 +1,6 @@
 const SkillsScroll = () => {
   return (
-    <div className="bg-[#0a192f] overflow-hidden">
+    <div className=" overflow-hidden">
 
       <div className="relative w-full overflow-hidden">
 
