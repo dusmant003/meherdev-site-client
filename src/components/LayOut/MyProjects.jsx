@@ -21,7 +21,7 @@ const MyProject = [
 
 const MyProjects = () => {
     return (
-        <section className="bg-[#0b0f19] py-20 overflow-hidden">
+        <section className="bg-[#0b0f19] py-12 overflow-hidden">
 
             {/* 🔥 Top Section */}
             <div className="max-w-7xl mx-auto px-6 md:px-20 mb-16 grid md:grid-cols-2 gap-10">

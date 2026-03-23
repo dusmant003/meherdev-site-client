@@ -5,6 +5,8 @@ import Services from '../../components/LayOut/sERVICES.JSX'
 import About from '../../components/LayOut/About'
 import Tools from '../../components/LayOut/Tools'
 import MyProjects from '../../components/LayOut/MyProjects'
+import Education from '../../components/LayOut/Educatrion'
+import Pricing from '../../components/LayOut/Pricing'
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <About />
             <Tools/>
             <MyProjects/>
+            <Education/>
+            <Pricing/>
         </>
     )
 }
