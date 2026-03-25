@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,15 +14,15 @@ const Navbar = () => {
         {/* Logo */}
         <h1 className="text-2xl font-bold text-transparent bg-clip-text 
         bg-gradient-to-r from-purple-400 to-cyan-400">
-         Dusmant
+          Dusmant
         </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-gray-300">
-          <li className="hover:text-white transition cursor-pointer">Home</li>
-          <li className="hover:text-white transition cursor-pointer">About</li>
-          <li className="hover:text-white transition cursor-pointer">Projects</li>
-          <li className="hover:text-white transition cursor-pointer">Contact</li>
+          <Link to="/"><li className="hover:text-white transition cursor-pointer">Home</li></Link>
+          <Link to="/about"><li className="hover:text-white transition cursor-pointer">About</li></Link>
+          <Link to="/projects"><li className="hover:text-white transition cursor-pointer">Projects</li></Link>
+          <Link to="/contact"><li className="hover:text-white transition cursor-pointer">Contact</li></Link>
         </ul>
 
         {/* Desktop Button */}
@@ -42,10 +43,10 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden px-6 pb-6 bg-black/40 backdrop-blur-xl border-t border-white/10">
           <ul className="flex flex-col gap-6 text-gray-300 mt-4">
-            <li className="hover:text-white transition cursor-pointer">Home</li>
-            <li className="hover:text-white transition cursor-pointer">About</li>
-            <li className="hover:text-white transition cursor-pointer">Projects</li>
-            <li className="hover:text-white transition cursor-pointer">Contact</li>
+            <Link to="/"><li className="hover:text-white transition cursor-pointer">Home</li></Link>
+            <Link to="/about"><li className="hover:text-white transition cursor-pointer">About</li></Link>
+            <Link to="/projects"><li className="hover:text-white transition cursor-pointer">Projects</li></Link>
+            <Link to="/contact"><li className="hover:text-white transition cursor-pointer">Contact</li></Link>
           </ul>
 
           <button className="mt-6 w-full px-5 py-3 rounded-xl text-white 

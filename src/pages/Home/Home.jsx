@@ -7,6 +7,7 @@ import Tools from '../../components/LayOut/Tools'
 import MyProjects from '../../components/LayOut/MyProjects'
 import Education from '../../components/LayOut/Educatrion'
 import Pricing from '../../components/LayOut/Pricing'
+import Contact from '../../components/LayOut/Contact'
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <MyProjects/>
             <Education/>
             <Pricing/>
+            <Contact/>
         </>
     )
 }

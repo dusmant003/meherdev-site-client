@@ -7,9 +7,9 @@ import Cursor from './components/crusor/Crusor'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
-
-
+import AboutUs from './pages/About/AboutUs'
+import Projects from './pages/Projects/Projects'
+import ContactUs from './pages/Contact/ContactUs'
 
 
 const App = () => {
@@ -26,6 +26,9 @@ const App = () => {
         {/* Public Layout Routes */}
         <Route path="/" element={<LayOut />}>
           <Route index element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<ContactUs />} />
         </Route>
 
         {/* Admin Panel Routes under AdminLayout */}

@@ -75,11 +75,15 @@ const About = () => {
                         data-aos-delay="300"
                         className="text-gray-400 mb-6 leading-relaxed"
                     >
-                        I help businesses grow with modern web design and development
-                        solutions. I focus on building scalable, high-performance and
-                        visually stunning applications with clean UI and smooth user experience.
+                        I help businesses grow by delivering modern web design and development solutions that are tailored to their goals. My approach focuses on creating digital experiences that are not only visually appealing but also drive real results.
                     </p>
-
+                    <p
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        className="text-gray-400 mb-6 leading-relaxed"
+                    >
+                        I specialize in building scalable, high-performance, and user-friendly applications with clean UI and smooth user experience, ensuring every project stands out and performs seamlessly.
+                    </p>
                     {/* 🔥 Contact Info */}
                     <div className="space-y-4">
 
